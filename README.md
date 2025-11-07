@@ -31,7 +31,7 @@ colcon build
 source install/setup.bash
 ```
 
-### (1) Pokretanje launch datoteke za vizualizaciju i upravljanje
+## (1) Pokretanje launch datoteke za vizualizaciju i upravljanje
 Za vizualizaciju robota i upravljanje pozicijama zglobova putem GUI-a pokrenuti:
 ```bash
 ros2 launch my_robot_description display.launch.py
@@ -39,7 +39,7 @@ ros2 launch my_robot_description display.launch.py
 
 
 
-### (2) Pokretanje launch datoteke za pokretanje robota s controllerima
+## (2) Pokretanje launch datoteke za pokretanje robota s controllerima
 Zaustaviti prošlu launch datoteku pomoću `ctrl + C`.
 
 Pokrenuti launch datoteku:
@@ -62,7 +62,7 @@ Kod pokretanja launch datoteke `joint_trajectoy_controller` je aktivan, a `forwa
 
 
 
-### (3) Pokretanje launch datoteke za objavljuvanje pozicija na joint_trajectory_controller
+## (3) Pokretanje launch datoteke za objavljuvanje pozicija na joint_trajectory_controller
 U istom terminalu (drugom) pokrenuti:
 ```bash
 ros2 launch my_robot_bringup run_joint_trajectory_controller.launch.py
@@ -72,7 +72,7 @@ Robotu se svakih 6 sekundi šalje naredba za postizanje nove konfiguracije, što
 
 
 
-### (4) Pokretanje launch datoteke za objavljuvanje pozicija na forward_position_controller
+## (4) Pokretanje launch datoteke za objavljuvanje pozicija na forward_position_controller
 Zaustaviti prošlu launch datoteku pomoću `ctrl + C`.
 
 Prije pokretanja nove launch datoteke potrebno je promijeniti aktivni controller pomoću naredbe:
