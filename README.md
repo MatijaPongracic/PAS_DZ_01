@@ -37,6 +37,8 @@ Za vizualizaciju robota i upravljanje pozicijama zglobova putem GUI-a pokrenuti:
 ros2 launch my_robot_description display.launch.py
 ```
 
+
+
 ### (2) Pokretanje launch datoteke za pokretanje robota s controllerima
 Zaustaviti prošlu launch datoteku pomoću `ctrl + C`.
 
@@ -59,6 +61,7 @@ vidljivo je da su učitana 3 controllera, od kojih 2 traže input.
 Kod pokretanja launch datoteke `joint_trajectoy_controller` je aktivan, a `forward_position_controller` je neaktivan. U svakom trenutku samo jedan od njih smije biti aktivan.
 
 
+
 ### (3) Pokretanje launch datoteke za objavljuvanje pozicija na joint_trajectory_controller
 U istom terminalu (drugom) pokrenuti:
 ```bash
@@ -66,6 +69,8 @@ ros2 launch my_robot_bringup run_joint_trajectory_controller.launch.py
 ```
 
 Robotu se svakih 6 sekundi šalje naredba za postizanje nove konfiguracije, što je vidljivo u RViz-vizualizaciji.
+
+
 
 ### (4) Pokretanje launch datoteke za objavljuvanje pozicija na forward_position_controller
 Zaustaviti prošlu launch datoteku pomoću `ctrl + C`.
