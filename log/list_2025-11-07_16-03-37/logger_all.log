@@ -1,0 +1,89 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/matija-pongracic/PAS/PAS_DZ_01', '--log-base', '/dev/null']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/matija-pongracic/PAS/PAS_DZ_01', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x745bf25dae00>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x745bf25d99c0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x745bf25d99c0>>, mixin_verb=('list',))
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.402s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/matija-pongracic/PAS/PAS_DZ_01', '/home/matija-pongracic/PAS/PAS_DZ_01/--log-base', '/dev/null'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/build) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/build) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/build) ignored
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/install) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/install) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/install) ignored
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/log) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/log) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/log) ignored
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extensions ['python_setup_py']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package '/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support' with type 'ros.ament_cmake' and name 'fanuc_m900ib_support'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package '/home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_resources' with type 'ros.ament_cmake' and name 'fanuc_resources'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/log) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/log) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package '/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package '/home/matija-pongracic/PAS/PAS_DZ_01/src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
