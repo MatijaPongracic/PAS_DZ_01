@@ -1,0 +1,74 @@
+[0.019s] Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support -DCMAKE_INSTALL_PREFIX=/home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.464s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.595s] -- Added test 'lint_cmake' to check CMake code style
+[0.595s] -- Added test 'xmllint' to check XML markup files
+[0.595s] -- Configuring done
+[0.596s] -- Generating done
+[0.597s] -- Build files have been written to: /home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support
+[0.600s] Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/matija-pongracic/PAS/PAS_DZ_01/src/fanuc_m900ib_support -DCMAKE_INSTALL_PREFIX=/home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support
+[0.602s] Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support -- -j12 -l12
+[0.648s] Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support -- -j12 -l12
+[0.650s] Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support
+[0.655s] -- Install configuration: ""
+[0.655s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//urdf
+[0.656s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//urdf/m900ib700_macro.xacro
+[0.656s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//urdf/m900ib700.xacro
+[0.656s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//urdf/m900ib700.ros2_control.xacro
+[0.656s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes
+[0.657s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700
+[0.657s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision
+[0.657s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/forklift_pockets.stl
+[0.657s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/bar.stl
+[0.657s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/link_6.stl
+[0.657s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/piston.stl
+[0.657s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/link_3.stl
+[0.658s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/link_5.stl
+[0.658s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/base_link.stl
+[0.658s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/link_4.stl
+[0.659s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/counterweight.stl
+[0.659s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/link_1.stl
+[0.659s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/balancer.stl
+[0.659s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/collision/link_2.stl
+[0.659s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual
+[0.659s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/forklift_pockets.stl
+[0.660s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/bar.stl
+[0.661s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/link_6.stl
+[0.661s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/piston.stl
+[0.661s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/link_3.stl
+[0.661s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/link_5.stl
+[0.661s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/base_link.stl
+[0.661s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/link_4.stl
+[0.662s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/counterweight.stl
+[0.662s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/link_1.stl
+[0.662s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/balancer.stl
+[0.662s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support//meshes/m900ib700/visual/link_2.stl
+[0.662s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/ament_index/resource_index/package_run_dependencies/fanuc_m900ib_support
+[0.662s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/ament_index/resource_index/parent_prefix_path/fanuc_m900ib_support
+[0.662s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/environment/ament_prefix_path.sh
+[0.662s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/environment/ament_prefix_path.dsv
+[0.663s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/environment/path.sh
+[0.663s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/environment/path.dsv
+[0.663s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/local_setup.bash
+[0.663s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/local_setup.sh
+[0.664s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/local_setup.zsh
+[0.664s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/local_setup.dsv
+[0.664s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/package.dsv
+[0.664s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/ament_index/resource_index/packages/fanuc_m900ib_support
+[0.664s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/cmake/fanuc_m900ib_supportConfig.cmake
+[0.664s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/cmake/fanuc_m900ib_supportConfig-version.cmake
+[0.664s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_01/install/fanuc_m900ib_support/share/fanuc_m900ib_support/package.xml
+[0.679s] Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_01/build/fanuc_m900ib_support
