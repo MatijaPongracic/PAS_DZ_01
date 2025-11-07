@@ -1,7 +1,7 @@
 # PAS_DZ_01
 
 ## Opis
-Ovaj projekt omogućava vizualizaciju robota i upravljanje pozicijama zglobova putem grafičkog korisničkog sučelja (GUI) koristeći ROS 2 framework.
+Matija Pongračić: Projektiranje autonomnih sustava - DZ 01
 
 ## Zahtjevi
 - ROS 2 instaliran na sustavu
